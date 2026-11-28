@@ -1,43 +1,38 @@
-# 🛡️ #120DaysOfCyber — Offensive Security & AppSec Portfolio
+# #120DaysOfCyber — Offensive Security, AppSec & Active Directory Portfolio
 
-Welcome to my **#120DaysOfCyber** engineering and penetration testing portfolio (`~/CyberPortfolio`). This repository serves as a live, open-source documentation hub tracking my intensive 4-month journey into application security, vulnerability research, API defense, and red team tooling.
+Welcome to my *#120DaysOfCyber* security and penetration testing portfolio (~/CyberPortfolio). This repository serves as a live documentation hub tracking my journey across application security, vulnerability research, API security, network reconnaissance, and Active Directory identity security.
 
-Rather than relying purely on theoretical study, my methodology revolves around a **"Build, Break, and Fix"** approach: writing custom vulnerable applications from scratch in Python, manually exploiting them using `cURL` and Burp Suite, and engineering robust, production-grade security remediations.
-
----
-
-## 🚀 Core Technical Domains & Frameworks
-
-* **OWASP Top 10 Web Application Security (Days 53–61):** 
-  - Command Injection, Path Traversal, Server-Side Request Forgery (SSRF), Cross-Site Scripting (XSS), SQL Injection, Broken Access Control (IDOR), Security Misconfiguration, Outdated Components, and Insufficient Logging & Monitoring.
-* **API Security & Specialized Vectors (Days 62–67+):** 
-  - Broken Object Level Authorization (BOLA / API1), Broken User Authentication (API2), Excessive Data Exposure (API3), Lack of Resources & Rate Limiting (API4), Broken Function Level Authorization (API5), and Unsafe Consumption of APIs (API10).
-* **Infrastructure & Tooling:** 
-  - Kali Linux, Python (`http.server`, `sqlite3`, `secrets`), `cURL`, Burp Suite, and Git/GitHub version control.
+Rather than relying on passive reading alone, my workflow focuses on building clear mental models, testing concepts in authorized lab environments, documenting findings cleanly with strict privacy habits, and continuously hardening defenses.
 
 ---
 
-## 📂 Daily Laboratory Index
-
-Every day features a dedicated documentation folder containing source code (`vulnerable_api.py` / `vulnerable_app.py`) and an official markdown breakdown (`README.md`):
-
-- **[Day 58: Broken Access Control & IDOR](Day58_Documentation/)**
-- **[Day 59: Security Misconfiguration](Day59_Documentation/)**
-- **[Day 60: Outdated Components & Supply Chain Risks](Day60_Documentation/)**
-- **[Day 61: Insufficient Logging & Monitoring](Day61_Documentation/)**
-- **[Day 62: API Endpoint Enumeration & BOLA (API1)](Day62_Documentation/)**
-- **[Day 63: Broken User Authentication in APIs (API2)](Day63_Documentation/)**
-- **[Day 64: Excessive Data Exposure in APIs (API3)](Day64_Documentation/)**
-- **[Day 65: Lack of Resources & Rate Limiting (API4)](Day65_Documentation/)**
-- **[Day 66: Broken Function Level Authorization (API5)](Day66_Documentation/)**
-- **[Day 67: Unsafe Consumption of APIs (API10)](Day67_Documentation/)**
+## Core Technical Domains & Frameworks
+- *Active Directory & Identity Security (Days 79–82):*
+  - Domain structure, enumeration concepts, service accounts, Kerberos ticket basics, attack path mapping, object permissions, Access Control Lists (ACLs), and least privilege defense.
+- *OWASP Top 10 & Web Application Security:*
+  - Access control flaws, injection vectors, misconfigurations, vulnerable components, and security logging/monitoring concepts.
+- *API Security & Specialized Vectors:*
+  - Object/function authorization concepts, authentication & data exposure risks, rate limiting, and safe API consumption.
+- *Infrastructure, Tooling & Safe Practice:*
+  - Kali Linux, Git/GitHub version control, network & service checks in authorized labs, and privacy-first notes (no real passwords, private network IPs, or personal data).
 
 ---
 
-## 💼 Professional Connect
+## Daily Laboratory Index
 
-* **LinkedIn:** [Abdullah Aleem](https://www.linkedin.com/)
-* **Portfolio Goal:** Mastering manual exploitation, secure coding, and infrastructure hardening to transition into an elite Red Team and AppSec role.
+Every day features a dedicated folder (DayXX_Documentation) and markdown write-up (README.md) tracking concepts, workflows, and security takeaways:
+
+- *Day 79:* Active Directory Fundamentals & Domain Enumeration
+- *Day 80:* Service Accounts, Kerberos Basics & Kerberoasting Concepts
+- *Day 81:* Practical Active Directory Enumeration & Attack Path Concepts
+- *Day 82:* Permissions, ACLs & Least Privilege Defense in Active Directory
+
+(Earlier daily folders and documentation across the #120DaysOfCyber challenge are also stored in this repository.)
 
 ---
-*⭐ Feel free to explore the daily directories for code samples, vulnerability proofs, and security fixes!*
+
+## Professional Connect
+- *LinkedIn:* Abdullah Aleem
+- *Portfolio Goal:* Building strong offensive and defensive security fundamentals across application security, network assessment, and Active Directory environments while maintaining disciplined, privacy-safe documentation.
+
+Feel free to explore the daily directories for notes, workflows, and security takeaways!
